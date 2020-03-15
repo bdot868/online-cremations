@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/online-cremations/static/css/main.b253e2f4.chunk.css",
+    "main.js": "/online-cremations/static/js/main.9a029e7c.chunk.js",
+    "main.js.map": "/online-cremations/static/js/main.9a029e7c.chunk.js.map",
+    "runtime-main.js": "/online-cremations/static/js/runtime-main.26c24ad4.js",
+    "runtime-main.js.map": "/online-cremations/static/js/runtime-main.26c24ad4.js.map",
+    "static/js/2.58735f3f.chunk.js": "/online-cremations/static/js/2.58735f3f.chunk.js",
+    "static/js/2.58735f3f.chunk.js.map": "/online-cremations/static/js/2.58735f3f.chunk.js.map",
+    "index.html": "/online-cremations/index.html",
+    "precache-manifest.6694c4b641663ddedd82078572acacf2.js": "/online-cremations/precache-manifest.6694c4b641663ddedd82078572acacf2.js",
+    "service-worker.js": "/online-cremations/service-worker.js",
+    "static/css/main.b253e2f4.chunk.css.map": "/online-cremations/static/css/main.b253e2f4.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26c24ad4.js",
+    "static/js/2.58735f3f.chunk.js",
+    "static/css/main.b253e2f4.chunk.css",
+    "static/js/main.9a029e7c.chunk.js"
+  ]
+}
