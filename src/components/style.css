@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+ .App {
+     max-width: 420px;
+     margin: 0 auto;
+}
+ input[type=text],input[type=email], select, textarea {
+     width: 100%;
+     padding: 12px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+     margin-top: 6px;
+     margin-bottom: 16px;
+     resize: vertical;
+}
+ input[type=submit] {
+     background-color: #4CAF50;
+     color: white;
+     padding: 12px 20px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+}
+ input[type=submit]:hover {
+     background-color: #385624;
+}
+
+body {
+  background-color: #fcf5e3;
+}
+ .container {
+     border-radius: 5px;
+     padding: 20px;
+}
+/* styles active below */
+
+.ui.button {
+  background: #385624;
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+
+.package-img {
+  width: 300px;
+}
+
+.package-img img {
+  max-width: 100%;
+}
+
+/* CHECKBOX STYLES */
+/* .ui.form .grouped.fields .field {
+  margin: 1.5em 1em;
+}
+.ui.checkbox label {
+  padding-left: 3em !important;
+}
+
+.ui.checkbox label:before {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.ui.checkbox input:checked~label:before {
+    background: #385624;
+}
+
+.ui.checkbox input:checked~label:after {
+  opacity: 1;
+  color: #fff;
+  font-size: 2em;
+  left: 1px;
+  top: 5px;
+} */
+
+/* ----------------- HOME COMPONENT ----------------- */
+
+.cremation-package {
+  max-width: 40%;
+  margin: auto;
+}
+.cremation-package-title {
+  width: 300px;
+  height: 150px;
+  background: #fff;
+  border: 5px solid #385624;
+  border-radius: 8px;
+  text-align: center;
+  padding: 1.9rem 2.5rem;
+}
+
+.cremation-package-title .package-title {
+  font-size: 1.5rem;
+}
+
+.cremation-package-title .package-price {
+  font-size: 1.5rem;
+  padding-top: 1.2rem;
+}
+
+.package-features {
+  font-size: 1.3rem
+}
+.package-features p {
+  margin-top: 1rem;
+}
+
+.package-features ul li {
+  margin-bottom: .5rem;
+}
+
+.modal-trigger {
+  cursor: pointer;
+  color: #385624;
+}
+
+.modal-trigger:hover {
+  color: #000;
+}
+
+/* ----------------------- CART COMPONENT --------------------- */
+.cart-price {
+  float: right;
+  font-weight: bolder;
+}
